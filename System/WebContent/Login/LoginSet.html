@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script type="text/javascript">
+	function cancel(){
+		A.A1.value = "";
+		A.A2.value = "";
+	}
+</script>
+</head>
+<body>
+<form action = Insert.jsp name = A>
+	ID를 입력하세요 : <input type = text name = ID value ="" id = A1 ><br>
+	Password를 입력하세요 : <input type = text name = Password value="" id = A2 >
+	<input type = submit value = 로그인>
+	<input type = button value = 취소 onclick= cancel()>
+</form>
+</body>
+</html>
