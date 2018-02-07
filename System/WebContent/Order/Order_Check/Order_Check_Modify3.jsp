@@ -181,7 +181,7 @@ function leadingZeros(n, digits) {
 		String Order_Num = request.getParameter("Order_Num");
 	%>
 <h1 align="center">주문등록</h1>
-	<form action="Order_Check_Modify4.jsp">
+	<form action="Order_Check_Modify4.jsp" method="post">
 		<table align="center" border="1">
 			<tr>
 				<td >

@@ -211,7 +211,7 @@ function leadingZeros(n, digits) {
 		}
 	%>
 <h1 align="center">주문등록</h1>
-	<form action="Order_Register4.jsp">
+	<form action="Order_Register4.jsp" method="post">
 		<table align="center" border="1">
 			<tr>
 				<td >

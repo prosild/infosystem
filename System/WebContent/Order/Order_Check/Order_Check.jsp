@@ -170,7 +170,7 @@ function leadingZeros(n, digits) {
 </nav>
 </center>
 <h1 align="center">주문내역</h1>
-<form action="Order_Check1.jsp">
+<form action="Order_Check1.jsp" method="post">
 	<table align="center">
 		<tr>
 			<td>

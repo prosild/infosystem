@@ -203,7 +203,7 @@
 					continue;
 				}
 				%>
-				<form action="Product_Delete1.jsp" >
+				<form action="Product_Delete1.jsp" method="post">
 					<table align="center" border="1">
 						<tr>
 							<td>

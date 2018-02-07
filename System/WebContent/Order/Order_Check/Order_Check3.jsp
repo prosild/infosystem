@@ -173,7 +173,7 @@
 		</nav>
 	</center>
 <h1 align="center">주문내역조회</h1>
-	<form action="Order_Check3.jsp" >						
+	<form action="Order_Check3.jsp" method="post">						
 	<%
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection conn = null;

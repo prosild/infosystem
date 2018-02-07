@@ -172,7 +172,7 @@
 </center>
 <center>
 	<h1>고객검색</h1>
-	<form action="Change_Customer.jsp">
+	<form action="Change_Customer.jsp" method="post">
 		<table>
 			<tr>
 				<td>

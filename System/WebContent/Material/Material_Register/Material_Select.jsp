@@ -175,7 +175,7 @@
 	<center>
 		<fieldset style="width:300px">
 			<legend>자재정보수정</legend>
-	<form action="Change.jsp" >
+	<form action="Change.jsp" method="post">
 					<table align="center" border="1">
 						<tr>
 							<td>

@@ -201,7 +201,7 @@
 				Cus_Addr = rs.getString("Cus_Addr");
 				Cus_Email = rs.getString("Cus_Email"); %>
 				
-				<form action="Change.jsp" >
+				<form action="Change.jsp" method="post">
 					<table align="center" border="1">
 						<tr>
 							<td>

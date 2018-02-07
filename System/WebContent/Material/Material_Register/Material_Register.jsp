@@ -216,7 +216,7 @@
 			Material_Num = "B" + a;
 		}
 	%>
-<form action="Set_Material.jsp" name="C">
+<form action="Set_Material.jsp" name="C" method="post">
 	<table align="center">
 		<tr>
 			<td align="right">

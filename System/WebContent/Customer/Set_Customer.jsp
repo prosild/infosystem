@@ -21,7 +21,7 @@
 		String Cus_Tel = request.getParameter("Cus_Tel");
 		String Cus_Addr = request.getParameter("Cus_Addr");
 		String Cus_Email = request.getParameter("Cus_Email");
-		
+		System.out.println(Cus_Name);
 		Connection conn = null;
 		Statement stmt = null;
 		
@@ -42,7 +42,7 @@
 			conn.close();
 		}
 	%>
-<script>n
+<script>
 	go();
 </script>
 </body>

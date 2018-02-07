@@ -176,7 +176,7 @@
 	<center>
 	<fieldset style="width:300px">
 	<legend>제품선택</legend>
-	<form action="Order_Register2.jsp" >
+	<form action="Order_Register2.jsp" method="post">
 					<table align="center" border="1">
 						<tr>
 							<td colspan="2">

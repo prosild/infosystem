@@ -173,7 +173,7 @@
 </nav>
 </center>
 <h1 align="center">자재출고내역</h1>
-	<form action="Material_SR_Register.jsp" >
+	<form action="Material_SR_Register.jsp" method="post">
 					<table align="center" border="1">
 						<tr>
 							<td>

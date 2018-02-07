@@ -171,7 +171,7 @@
 	</nav>
 	</center>
 <h1 align="center">자재재고내역</h1>
-	<form action="Customer_Select.jsp" >
+	<form action="Customer_Select.jsp" method="post">
 					<table align="center" border="1">
 						<tr>
 							<td>

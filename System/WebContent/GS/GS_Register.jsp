@@ -122,7 +122,7 @@
 	</ul>
 </nav>
 </center>
-<form name="A">
+<form name="A" method="post">
 	<table align="right">
 		<tr>
 			<td>
@@ -173,7 +173,7 @@
 			GS_Num = "B" + a;
 		}
 	%>
-<form action="GS_Register(1).jsp">
+<form action="GS_Register(1).jsp" method="post">
 	<table align="center">
 		<tr>
 			<td align="right">

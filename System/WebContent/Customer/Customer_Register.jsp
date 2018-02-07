@@ -17,7 +17,7 @@
     #topMenu ul {           /* 메인 메뉴 안의 ul을 설정함: 상위메뉴의 ul+하위 메뉴의 ul */
         list-style-type: none;  /* 메인 메뉴 안의 ul 내부의 목록 표시를 없애줌 */
         margin: 0px;            /* 메인 메뉴 안의 ul의 margin을 없앰 */
-        padding: 0px;           /* 메인 메뉴 안의 ul의 padding을 없앰 */
+        padding: 0p	x;           /* 메인 메뉴 안의 ul의 padding을 없앰 */
     }
     #topMenu ul li {            /* 메인 메뉴 안에 ul 태그 안에 있는 li 태그의 스타일 적용(상위/하위메뉴 모두) */
         color: white;               /* 글씨 색을 흰색으로 설정 */
@@ -222,7 +222,7 @@
 			Cus_Num = "P" + a;
 		}
 	%>
-<form action="Set_Customer.jsp" name="C">
+<form action="Set_Customer.jsp" name="C" method="post">
 	<table align="center">
 		<tr>
 			<td align="right">

@@ -176,7 +176,7 @@
 	<center>
 	<fieldset style="width:300px">
 	<legend>자재선택</legend>
-	<form action="Material_Select.jsp" >
+	<form action="Material_Select.jsp" method="post">
 					<table align="center" border="1">
 						<tr>
 							<td colspan="2">
@@ -241,7 +241,7 @@
 			</center>
 			</form>
 			<center>
-			<form action="Material_Delete1.jsp?<%= Material_Num %>" >
+			<form action="Material_Delete1.jsp?<%= Material_Num %>" method="post">
 				<input type="submit" value="삭제">
 			</form>
 			</center>

@@ -107,7 +107,7 @@
 </script>
 </head>
 <body onload="realtimeClock()">
-	<form name="A">
+	<form name="A" method="post">
 		<table align="right">
 			<tr>
 				<td>

@@ -200,7 +200,7 @@
 				}
 				%>
 				
-				<form action="Product_Select.jsp" >
+				<form action="Product_Select.jsp" method="post">
 					<table align="center" border="1">
 						<tr>
 							<td>

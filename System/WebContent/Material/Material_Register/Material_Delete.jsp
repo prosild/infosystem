@@ -179,7 +179,7 @@
 	<center>
 		<fieldset style="width:300px">
 			<legend>자재정보삭제</legend>
-				<form action="Material_Delete1.jsp" >
+				<form action="Material_Delete1.jsp" method="post">
 					<table align="center" border="1">
 						<tr>
 							<td colspan="2">

@@ -172,7 +172,7 @@
 </nav>
 </center>
 <h1 align="center">주문등록</h1>
-	<form action="Order_Register.jsp">
+	<form action="Order_Register.jsp" method="post">
 		<table width="59%" align="center">
 			<tr>
 				<td align="left">고객명 : <input type="text" name="Cus_Name">
@@ -180,7 +180,7 @@
 			</tr>
 		</table>
 	</form>
-	<form action="Order_Register1.jsp">
+	<form action="Order_Register1.jsp" method="post">
 		<table align="center" border="1">
 			<tr>
 				<td colspan="2">고객번호</td>

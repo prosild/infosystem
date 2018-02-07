@@ -176,7 +176,7 @@
 <center>
 <fieldset style="width:400px">
 	<legend>주문내역목록</legend>
-	<form action="Order_Check2.jsp" >
+	<form action="Order_Check2.jsp" method="post">
 					<table align="center" border="1">
 						<tr>
 							<td>
@@ -251,13 +251,13 @@
 							<input type="submit" value="조회">
 						</td>
 			</form>
-			<form action="Order_Check_Modify.jsp">
+			<form action="Order_Check_Modify.jsp" method="post">
 						<td align="right" width="5%">
 							<input type="hidden" name="Order_Date" value="<%=order_Date %>">
 							<input type="submit" value="수정">
 						</td>
 			</form>
-			<form action="Order_Check_Delete.jsp">
+			<form action="Order_Check_Delete.jsp" method="post">
 						<td align="right" width="5%">
 							<input type="hidden" name="Order_Date" value="<%=order_Date %>">
 							<input type="submit" value="삭제">
